@@ -5,7 +5,7 @@ all-to-all:
 4	0.0036 miliseconds RTT nodes: 30-33
 8	0.0037 miliseconds RTT nodes: 30-37
 16	0.0039 miliseconds RTT nodes: 30-45
-32	0.0042  miliseconds RTT nodes: 10.149.0.9 10.149.0.54-68 10.149.0.30-45
+32	0.0042  miliseconds RTT nodes: 9, 54-68, 30-45
 
 
 
