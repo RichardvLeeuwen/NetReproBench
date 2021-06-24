@@ -8,10 +8,9 @@
 #include <thread>
 #include "client.h"
 #include <vector>
-// mutex::lock/unlock
-#include <iostream>       // std::cout
-#include <thread>         // std::thread
-#include <mutex>          // std::mutex
+#include <iostream>       
+#include <thread>         
+#include <mutex>          
 #include <string.h>
 #include <fstream>
 #include <cstdlib>
