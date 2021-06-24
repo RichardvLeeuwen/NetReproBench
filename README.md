@@ -26,4 +26,4 @@ The transmitters and receivers each create a new thread for each new TCP connect
 
 At 32 nodes, the latency test may occassionaly experience connection issues. This is a known bug and requires restarting the script worst case.<br>
 
-In the SSH files, please fill in your own personal DAS5 username. The script assumes all files are stored in a folder called 'thesis' The benchmark tool assumes access to a shared file system..<br>
+In the SSH files, please fill in your own personal DAS5 username. The script assumes all files are stored in a folder called 'thesis' The benchmark tool assumes access to a shared file system for storing the log files.<br>
