@@ -10,7 +10,7 @@ import numpy as np
 
 from matplotlib.font_manager import FontProperties
 
-
+#change path name for personal use
 def main():
     path = "/home/richard/cloudBenchCPU/"
     pathPlots = "/home/richard/CloudPlots/"
