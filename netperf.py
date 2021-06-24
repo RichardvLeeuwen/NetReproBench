@@ -1,4 +1,4 @@
-# python file for the masternode script
+# python file for the netperf script
 import socket, threading
 import subprocess
 import argparse
