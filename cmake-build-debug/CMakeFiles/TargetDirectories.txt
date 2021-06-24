@@ -1,0 +1,4 @@
+/home/richard/CLionProjects/cloudBenchmarking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/richard/CLionProjects/cloudBenchmarking/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/richard/CLionProjects/cloudBenchmarking/cmake-build-debug/CMakeFiles/client.dir
+/home/richard/CLionProjects/cloudBenchmarking/cmake-build-debug/CMakeFiles/server.dir
