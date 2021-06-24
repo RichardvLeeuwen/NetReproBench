@@ -1,0 +1,29 @@
+All-to-all
+
+1 KB	Box plot throughput gigabit/second:	minimum	maximum	median	1st quartile	3rd quartile		
+nodes:								
+2		0,0021		0,0025	0,0023	0,0027		MAX OUTLIER OF 0,1622
+4		0,0016		0,0028	0,0024	0,0031		MAX OUTLIER OF 8,5205
+8		0,0014		0,0029	0,0025	0,0033	 	MAX OUTLIER OF 8,5205
+16				0,0029	0,0025	0,0033		
+32				0,0022	0,0018	0,0025		
+
+All-to-one
+
+Box plot throughput gigabit/second:	minimum	maximum	median	1st quartile	3rd quartile	
+nodes:							
+2		0,0026		0,0029	0,0028	0,0032	MAX OUTLIER OF 0,1801
+4		0,0025		0,0029	0,0028	0,0032	MAX OUTLIER OF 0,2281
+8		0,0019		0,0028	0,0026	0,0029	MAX OUTLIER OF 0,5589
+16		0,0024		0,003	0,0028	0,0032	MAX OUTLIER OF 0,9171
+32		0,0024		0,0031	0,003	0,0032	MAX OUTLIER OF 19,1835
+
+One-to-all
+
+Box plot throughput gigabit/second:	minimum	maximum	median	1st quartile	3rd quartile	
+nodes:							
+2		0,0026		0,0029	0,0028	0,0033	MAX OUTLIER OF 0,1602
+4		0,0024		0,003	0,0028	0,0034	MAX OUTLIER OF 0,2669
+8		0,0025		0,0036	0,003	0,0038	MAX OUTLIER OF 2,8414
+16		0,002		0,0029	0,0026	0,0032	MAX OUTLIER OF 3,4857
+32		0,0015		0,0026	0,0023	0,003	MAX OUTLIER OF 2,4916

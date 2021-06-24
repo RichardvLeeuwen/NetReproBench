@@ -1,0 +1,81 @@
+Size: 1024 bytes (1 kilobyte), duration: 1000
+
+all-to-all:
+2	0.0047 miliseconds RTT nodes: 30-31
+4	0.0036 miliseconds RTT nodes: 30-33
+8	0.0037 miliseconds RTT nodes: 30-37
+16	0.0039 miliseconds RTT nodes: 30-45
+32	0.0042  miliseconds RTT nodes: 10.149.0.9 10.149.0.54-68 10.149.0.30-45
+
+
+
+
+all-to-one: (number of nodes including the receiving node)
+2	 0.0053  miliseconds RTT nodes: 53 -> 68
+4	 0.0045  miliseconds RTT nodes: (53 - 55) -> 68
+8	 0.0041  miliseconds RTT nodes: (53 - 59) -> 68
+16	 0.0042  miliseconds RTT nodes: (53 - 67) -> 68
+32	 0.0050  miliseconds RTT nodes: (53-67, 30 - 45) -> 68
+
+
+one-to-all:(number of nodes including the sending node)
+2	 0.0052  miliseconds RTT nodes:  68 -> 53
+4	 0.0054  miliseconds RTT nodes:  68 -> (53 - 55)
+8	 0.0043 miliseconds RTT nodes:  68 -> (53 - 59)
+16	 0.0045  miliseconds RTT nodes:  68 -> (53 - 67)
+32	 0.0034  miliseconds RTT nodes: 68 -> (53-67, 30 - 45)
+
+
+
+Size: 100 bytes (100 bytes), duration: 1000
+
+all-to-all:
+2	0.0061  miliseconds RTT nodes: 30-31
+4	0.0033 miliseconds RTT nodes: 30-33
+8	0.0032 miliseconds RTT nodes: 30-37
+16	0.0034 miliseconds RTT nodes: 30-45
+32	0.0028 miliseconds RTT nodes: 10.149.0.30-45 10.149.0.53-68
+
+
+
+
+all-to-one: (number of nodes including the receiving node)
+2	   0.0066 miliseconds RTT nodes: 53 -> 68
+4	   0.0053 miliseconds RTT nodes: (53 - 55) -> 68
+8	   0.0044 miliseconds RTT nodes: (53 - 59) -> 68
+16	   0.0034 miliseconds RTT nodes: (53 - 67) -> 68
+32	   0.0035 miliseconds RTT nodes: (53-67, 30 - 45) -> 68
+
+
+one-to-all:(number of nodes including the sending node)
+2	  0.0025 miliseconds RTT nodes:  68 -> 53
+4	  0.0037 miliseconds RTT nodes:  68 -> (53 - 55)
+8	  0.0043 miliseconds RTT nodes:  68 -> (53 - 59)
+16	  0.0035 miliseconds RTT nodes:  68 -> (53 - 67)
+32	  0.0068 miliseconds RTT nodes: 68 -> (53-67, 30 - 45)
+
+
+Size: 10240 bytes (10 kilobytes), duration: 1000
+
+all-to-all:
+2	0.0488  miliseconds RTT nodes: 30-31
+4	0.0628  miliseconds RTT nodes: 30-33
+8	0.0753  miliseconds RTT nodes: 30-37
+16	0.0990  miliseconds RTT nodes: 30-45
+32	0.1365	miliseconds RTT nodes: 53 - 68, 30 - 45
+
+
+
+all-to-one: (number of nodes including the receiving node)
+2	  0.0474 miliseconds RTT nodes: 53 -> 68
+4	  0.0870 miliseconds RTT nodes: (53 - 55) -> 68
+8	  0.0929 miliseconds RTT nodes: (53 - 59) -> 68
+16	  0.0915 miliseconds RTT nodes: (53 - 67) -> 68
+32	  0.1382 miliseconds RTT nodes: (53-67, 30 - 45) -> 68
+
+one-to-all:(number of nodes including the sending node)
+2	  0.0095 miliseconds RTT nodes:  68 -> 53
+4	  0.0614 miliseconds RTT nodes:  68 -> (53 - 55)
+8	  0.0794 miliseconds RTT nodes:  68 -> (53 - 59)
+16	  0.1018 miliseconds RTT nodes:  68 -> (53 - 67)
+32	  0.1420 miliseconds RTT nodes: 68 -> (53-67, 30 - 45)

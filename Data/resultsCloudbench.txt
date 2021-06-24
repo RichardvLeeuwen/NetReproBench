@@ -1,0 +1,82 @@
+Size: 1024 bytes (1 kilobyte), duration: 120
+
+all-to-all:
+2	8,59	gigabit/sec nodes: 8 - 9
+4	5,97	gigabit/sec nodes: 8 - 11
+8	2,58 	gigabit/sec nodes: 16 - 23
+16	1,16 	gigabit/sec nodes: 8 - 23
+32	0,58	gigabit/sec nodes: 8 - 23, 30 - 45
+
+
+
+
+all-to-one: (number of nodes including the receiving node)
+2	   8,28 gigabit/sec nodes: 9 -> 8
+4	   7,33 gigabit/sec nodes: (9 - 11) -> 8
+8	   3,69 gigabit/sec nodes: (17 - 23) -> 16
+16	   1,62 gigabit/sec nodes: (9 - 23) -> 8
+32	   0,81 gigabit/sec nodes: (9 - 23, 30 - 45) -> 8
+
+
+one-to-all:(number of nodes including the sending node)
+2	8,55  gigabit/sec nodes: 9 -> 8
+4	7,13  gigabit/sec nodes: 8 ->  (9 - 11)
+8	5,92  gigabit/sec nodes: 8 ->  (9 - 15)
+16	2,42  gigabit/sec nodes: 8 -> (9 - 23)
+32	1,07  gigabit/sec nodes: 8 ->  (9 - 23, 30 - 45) 
+
+
+Size: 102400 bytes (100 kilobytes), duration: 120
+
+all-to-all:
+2	17,35 gigabit/sec nodes: 8 - 9
+4	6,07  gigabit/sec nodes: 8 - 11
+8	2,61  gigabit/sec nodes: 16 - 23
+16	1,20  gigabit/sec nodes: 8 - 23
+32	0,59  gigabit/sec nodes: 8 - 23, 30 - 45
+
+
+
+
+all-to-one: (number of nodes including the receiving node)
+2	 20,97 gigabit/sec nodes: 9 -> 8
+4	 10,11	gigabit/sec nodes: (9 - 11) -> 8
+8	 3,65	gigabit/sec nodes: (17 - 23) -> 16
+16	 1,59 	gigabit/sec nodes: (9 - 23) -> 8
+32	 0,78	gigabit/sec nodes: (9 - 23, 30 - 45) -> 8
+
+
+one-to-all:(number of nodes including the sending node)
+2	 21,28 gigabit/sec nodes: 9 -> 8
+4	 12,91 gigabit/sec nodes: 8 ->  (9 - 11)
+8	 4,74  gigabit/sec nodes: 8 ->  (9 - 15)
+16	 2,23  gigabit/sec nodes: 8 -> (9 - 23)
+32	 1,14  gigabit/sec nodes:  8 ->  (9 - 23, 30 - 45) 
+
+
+Size: 1048576 bytes (1 megabyte), duration: 120
+
+all-to-all:
+2     17,07 gigabit/sec nodes: 8 - 9
+4     5,85  gigabit/sec nodes: 8 - 11
+8     2,53  gigabit/sec nodes: 16 - 23
+16    1,17  gigabit/sec nodes: 8 - 23
+32    0,57  gigabit/sec nodes: 8 - 23, 30 - 45
+
+
+
+
+all-to-one: (number of nodes including the receiving node)
+2	 23,89  gigabit/sec nodes: 9 -> 8
+4	 9,98	gigabit/sec nodes: (9 - 11) -> 8
+8	 3,61	gigabit/sec nodes: (17 - 23) -> 16
+16	 1,60   gigabit/sec nodes: (9 - 23) -> 8
+32	 0,77	gigabit/sec nodes: (9 - 23, 30 - 45) -> 8
+
+
+one-to-all:(number of nodes including the sending node)
+2	23,96   gigabit/sec nodes: 9 -> 8
+4	12,02 gigabit/sec nodes: 8 ->  (9 - 11)
+8	4,78  gigabit/sec nodes: 8 -> (9 - 15)
+16	2,27  gigabit/sec nodes: 8 -> (9 - 23)
+32	1,06  gigabit/sec nodes: 8 ->  (9 - 23, 30 - 45) 
